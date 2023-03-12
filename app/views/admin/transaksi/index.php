@@ -21,8 +21,8 @@
                         <td><?= $siswa['nama']?></td>
                         <td><?= $siswa['telepon']?></td>
                         <td>
-                            <a href="<?= BASE_URL?>/admin_transaksi_v2/bayar/<?= $siswa['id_siswa']?>" class="btn btn-warning">Entry</a>
-                            <a href="<?= BASE_URL?>/admin_transaksi_v2/history/<?= $siswa['id_siswa']?>" class="btn btn-secondary">History</a>
+                            <a href="<?= BASE_URL?>/admin_transaksi/bayar/<?= $siswa['id_siswa']?>" class="btn btn-warning">Entry</a>
+                            <a href="<?= BASE_URL?>/admin_transaksi/history/<?= $siswa['id_siswa']?>" class="btn btn-secondary">History</a>
                         </td>
                     </tr>
                     <?php endforeach;?>
